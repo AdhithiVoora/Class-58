@@ -1,0 +1,70 @@
+body 
+{
+ margin: 0;
+ padding-top: 800px;
+ text-align: center;
+}
+
+.profile
+{
+    border-radius: 50%;
+}
+
+#welcome
+{
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#79f5c5 0%, #2e62f0 100%);
+    z-index: 9;
+
+}
+
+#bio
+{
+    font-family: monospace;
+    padding: 50px;
+}
+
+.line
+{
+    height: 6px;
+    background-color:hotpink;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#name
+{
+    font-size: 70px;
+    font-family: 'Caramel', cursive;
+}
+
+.menu 
+{
+ list-style: none;
+ position:absolute;
+ top: 10px;
+ right: 30px;
+ z-index: 10;
+ cursor: pointer;
+}
+
+.links 
+{
+ float: left;
+ padding-top: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-bottom: 5px;
+ font-size: 20px;
+ font-family: cursive;
+}
